@@ -8,7 +8,7 @@
 
 * git config --global user.email "email@example.com": set git email
 
-* git status: shows the status of the local git repository
+* git status: shows the status of the local git repository, for e.g. if a local git repository is present or not, the unstaged files, etc.
 
 * git init: creates an empty local git repository (with "master" branch) in the current working directory to track all the changes
 
@@ -23,4 +23,8 @@ Note: Github changed the "master" to be "main" as part of the company's effort t
 * git commit -m "commit-message": commit changes to git with a commit message
 
 * git commit -a -m "commit-message": commit changes to git directly, skipping the git staging area
+
+* git diff: shows the difference or what exactly has been modified between the latest commit and the modified file/s in the working directory
+
+* git diff --staged: shows the difference between the latest commit and file/s in the staging area
 
