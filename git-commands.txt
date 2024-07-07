@@ -59,3 +59,13 @@ Notes:
 
 * git push -u origin main: push the commits in the local repository to the main branch of the remote repository
 
+* git remote -v: provides both the shortname and the corresponding URL of the remote repository
+
+* git tag: shows all the tags (commonly used to mark specific versions of a project for release) for the project
+
+* git tag -a tag-name -m "tag-message": creates an annoted tag with a message
+
+* git show tag-name: gives description about a particular tag
+
+* git push origin tag-name: push the tag to the remote repository
+
