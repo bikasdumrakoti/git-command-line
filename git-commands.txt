@@ -14,7 +14,11 @@
 
 * git init -b main: creates an empty local git repository (with "main" branch) in the current working directory to track all the changes
 
-Note: Github changed the "master" to be "main" as part of the company's effort to remove unnecessary references to slavery and replace them with more inclusive terms. The bottom line is, they wanted to get rid of the unpleasant term "master". Both are technically the same.
+Notes:
+
+- Github changed the "master" to be "main" as part of the company's effort to remove unnecessary references to slavery and replace them with more inclusive terms.
+- The bottom line is, they wanted to get rid of the unpleasant term "master".
+- Both are technically the same.
 
 * git add file-name.txt: add file in the git staging area
 
@@ -31,4 +35,27 @@ Note: Github changed the "master" to be "main" as part of the company's effort t
 * git add .: add all files in the git staging area
 
 * git rm --cached file-name.txt: remove the file from the local git repository
+
+* git clone https://github.com/username/example.git: clone the remote HTTPS repository to the local machine
+
+* ssh-keygen -o: generate a SSH key to setup the local machine to connect with the remote repository without having to login everytime
+
+Notes:
+
+- Enter the path and file name to save the SSH key (can leave default).
+- Enter and re-enter a passphrase (can leave blank).
+- Two files will be generated, an identity file and a .pub file containing the public SSH key.
+- Copy the public SSH key content in the .pub file.
+- Log into Github.
+- Open Settings.
+- Open SSH and GPG keys.
+- Click New SSH key.
+- Provide a Title.
+- Select Key type as Authentication Key.
+- Paste the copied public SSH key.
+- Click Add SSH key.
+
+* git remote add origin git@github.com:username/example.git: connect the local repository with the remote repository via a SSH link without having to login if the public SSH key is present both in the local machine and in Github as well
+
+* git push -u origin main: push the commits in the local repository to the main branch of the remote repository
 
