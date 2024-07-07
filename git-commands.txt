@@ -1,0 +1,18 @@
+* git --version: check installed git version
+
+* git update-git-for-windows: update git for Windows
+
+* git config --global --list: check git owner
+
+* git config --global user.name "username": set git username
+
+* git config --global user.email "email@example.com": set git email
+
+* git status: shows the status of the local git repository
+
+* git init: creates an empty local git repository (with "master" branch) in the current working directory to track all the changes
+
+* git init -b main: creates an empty local git repository (with "main" branch) in the current working directory to track all the changes
+
+Note: Github changed the "master" to be "main" as part of the company's effort to remove unnecessary references to slavery and replace them with more inclusive terms. The bottom line is, they wanted to get rid of the unpleasant term "master". Both are technically the same.
+
