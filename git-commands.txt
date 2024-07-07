@@ -42,7 +42,7 @@ Notes:
 
 Notes:
 
-- Enter the path and file name to save the SSH key (can leave default).
+- Enter the path and file name to save the SSH key (can leave default). THE FILE NAME MUST BE id_rsa.
 - Enter and re-enter a passphrase (can leave blank).
 - Two files will be generated, an identity file and a .pub file containing the public SSH key.
 - Copy the public SSH key content in the .pub file.
