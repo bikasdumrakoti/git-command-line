@@ -20,5 +20,7 @@ Note: Github changed the "master" to be "main" as part of the company's effort t
 
 * git log: shows the commit history
 
-* git commit -m "commit-message": commit changes with a commit message
+* git commit -m "commit-message": commit changes to git with a commit message
+
+* git commit -a -m "commit-message": commit changes to git directly, skipping the git staging area
 
