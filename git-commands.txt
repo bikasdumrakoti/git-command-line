@@ -16,3 +16,9 @@
 
 Note: Github changed the "master" to be "main" as part of the company's effort to remove unnecessary references to slavery and replace them with more inclusive terms. The bottom line is, they wanted to get rid of the unpleasant term "master". Both are technically the same.
 
+* git add file-name.txt: add file in the git staging area
+
+* git log: shows the commit history
+
+* git commit -m "commit-message": commit changes with a commit message
+
