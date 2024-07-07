@@ -28,3 +28,7 @@ Note: Github changed the "master" to be "main" as part of the company's effort t
 
 * git diff --staged: shows the difference between the latest commit and file/s in the staging area
 
+* git add .: add all files in the git staging area
+
+* git rm --cached file-name.txt: remove the file from the local git repository
+

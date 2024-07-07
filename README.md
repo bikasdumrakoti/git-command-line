@@ -1,0 +1,1 @@
+This repository contains some git commands as demonstrated by Mr. Navin Reddy on his youtube channel Telusko.
