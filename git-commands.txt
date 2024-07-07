@@ -69,3 +69,5 @@ Notes:
 
 * git push origin tag-name: push the tag to the remote repository
 
+* git log --pretty=oneline: shows all commits along with commit id and commit message as an oneliner
+
