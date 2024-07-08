@@ -81,3 +81,5 @@ Note:
 
 * git switch branch-name: switch to mentioned branch
 
+* git checkout branch-name: switch to mentioned branch
+
