@@ -71,3 +71,13 @@ Notes:
 
 * git log --pretty=oneline: shows all commits along with commit id and commit message as an oneliner
 
+* git checkout -b branch-name: create and switch to a new branch
+
+* git branch: shows all branches
+
+Note:
+
+- asterik (*) refers to current working branch
+
+* git switch branch-name: switch to mentioned branch
+
