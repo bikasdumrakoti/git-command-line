@@ -91,3 +91,5 @@ Note:
 
 * git branch -d branch-name: delete the mentioned branch
 
+* git push origin branch-name: push the mentioned local branch to the remote repository
+
