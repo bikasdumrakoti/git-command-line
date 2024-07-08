@@ -93,3 +93,10 @@ Note:
 
 * git push origin branch-name: push the mentioned local branch to the remote repository
 
+* git pull origin main: get the updated remote main repository before merging/pushing the local repository
+
+* git merge branch-name: merge the mentioned branch with the main branch
+
+Note:
+
+- one must switch to the main branch before merging
