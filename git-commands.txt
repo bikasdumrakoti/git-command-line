@@ -73,7 +73,7 @@ Notes:
 
 * git checkout -b branch-name: create and switch to a new branch
 
-* git branch: shows all branches
+* git branch: shows all branches in the local repository
 
 Note:
 
@@ -82,4 +82,12 @@ Note:
 * git switch branch-name: switch to mentioned branch
 
 * git checkout branch-name: switch to mentioned branch
+
+* git switch -c branch-name: create and switch to a new branch
+
+* git branch --all: shows all branches along with the branch in the remote repository
+
+* git switch -: switch to the previous branch
+
+* git branch -d branch-name: delete the mentioned branch
 
