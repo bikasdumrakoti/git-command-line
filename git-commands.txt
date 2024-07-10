@@ -100,3 +100,5 @@ Note:
 Note:
 
 - one must switch to the main branch before merging
+
+* git fetch origin main: updates the local repository with details of changes made in the remote repository while keeping the working directory unchanged
