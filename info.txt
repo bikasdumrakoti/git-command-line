@@ -1,0 +1,7 @@
+* What is a pull request?
+
+- A pull request is a way to propose changes to a codebase and request a review and a merge from other developers.
+- A pull request is created when a developer has completed a feature on a branch of a repository and wants to merge it into the main branch.
+- A pull request is a thing that GitHub, or Bitbucket, or some other web hosting service, provides.
+- It is not part of Git itself.
+- Although it cannot be achieved form a random CLI, GitHub has an officially released solution for creating pull requests from the command line: the GitHub CLI.

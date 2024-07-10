@@ -1,1 +1,1 @@
-This repository contains some git commands as demonstrated by Mr. Navin Reddy on his youtube channel Telusko.
+This repository contains git commands on the git-commands.txt file as demonstrated by Mr. Navin Reddy on his youtube channel Telusko and from several other sources. Additional information on some of the common terms can also be found on the info.txt file.
