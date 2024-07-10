@@ -89,7 +89,7 @@ Note:
 
 * git switch -: switch to the previous branch
 
-* git branch -d branch-name: delete the mentioned branch
+* git branch -d branch-name: delete the mentioned branch from local repository
 
 * git push origin branch-name: push the mentioned local branch to the remote repository
 
@@ -102,3 +102,5 @@ Note:
 - one must switch to the main branch before merging
 
 * git fetch origin main: updates the local repository with details of changes made in the remote repository while keeping the working directory unchanged
+
+* git push origin -d branch-name: delete the mentioned branch from the remote repository
