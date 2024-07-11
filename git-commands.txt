@@ -104,3 +104,5 @@ Note:
 * git fetch origin main: updates the local repository with details of changes made in the remote repository while keeping the working directory unchanged
 
 * git push origin -d branch-name: delete the mentioned branch from the remote repository
+
+* git remote prune origin: remove all remote branches that have already been deleted from the remote repository but are still locally available in "remotes/origin"
