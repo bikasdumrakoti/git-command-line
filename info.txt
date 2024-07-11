@@ -24,3 +24,9 @@
 - GitHub Issues are a way to track and manage the work needed to improve the projects.
 - Each issue can represent a task, bug report, or feature request and can be assigned to team members, tagged with labels, and linked to milestones.
 - There is also an issue dashboard that lists all issues from all the projects an individual has been working on.
+
+* What is the .gitignore file?
+
+- .gitignore file is used in a git repository to ignore the files and directories which are unnecessary to the project.
+- These files and directories will be ignored by git once the changes has been committed to the remote repository.
+- The type of files which will get ignored are mainly temporary files and the files which should not be versioned.
