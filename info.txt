@@ -30,3 +30,9 @@
 - .gitignore file is used in a git repository to ignore the files and directories which are unnecessary to the project.
 - These files and directories will be ignored by git once the changes has been committed to the remote repository.
 - The type of files which will get ignored are mainly temporary files and the files which should not be versioned.
+
+* What is rebase in Git?
+
+- Rebase is a way to integrate changes from one branch into another.
+- Merge creates a new commit to combine the commits of both branches.
+- Rebase moves the commits from one branch to another, generally sub-branch to main branch, creating a linear history.

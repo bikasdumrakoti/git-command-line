@@ -110,3 +110,5 @@ Note:
 * git config --global core.editor "code --wait": set Visual Studio Code as the default git configuration file editor (can set other editors as well)
 
 * git config --global --edit: edit global git configuration settings for e.g. user credential requirements
+
+* git rebase main: rebase the current branch onto the main branch
