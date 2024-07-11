@@ -130,3 +130,7 @@ Note:
 * git stash drop index-number: drops the stash in the mentioned index number
 
 * git stash clear: clear entire stash
+
+* git reset commit-id: go back to the mentioned commit by deleting all other commits after that, while keeping the files unchanged
+
+* git reset commit-id --hard: go back to the mentioned commit by deleting all other commits and changes in files after that
