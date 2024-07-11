@@ -13,7 +13,14 @@
 - This copy includes all the files, commit history, and branches present in the original repository at the time of forking.
 - Essentially, forking allows an individual to make modifications to the codebase without affecting the original project.
 - One can then submit a pull request to the original repository to propose merging the changes back into it or keep the forked version for the individual's own use.
-- It’s a way to collaborate, experiment, and contribute to open source projects while maintaining separation from the original codebase.
+- It’s a way to collaborate, experiment, and contribute to open-source projects while maintaining separation from the original codebase.
 - A fork is a thing that Github provides.
 - It is not part of Git itself.
 - Although it cannot be achieved from a random CLI, GitHub has an officially released solution for forking a repository from the command line: the GitHub CLI.
+
+* What are GitHub Issues?
+
+- GitHub Issues helps developers track bugs, enhancements, and tasks, ensuring that projects stay organized and on track.
+- GitHub Issues are a way to track and manage the work needed to improve the projects.
+- Each issue can represent a task, bug report, or feature request and can be assigned to team members, tagged with labels, and linked to milestones.
+- There is also an issue dashboard that lists all issues from all the projects an individual has been working on.
