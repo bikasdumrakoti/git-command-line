@@ -4,4 +4,16 @@
 - A pull request is created when a developer has completed a feature on a branch of a repository and wants to merge it into the main branch.
 - A pull request is a thing that GitHub, or Bitbucket, or some other web hosting service, provides.
 - It is not part of Git itself.
-- Although it cannot be achieved form a random CLI, GitHub has an officially released solution for creating pull requests from the command line: the GitHub CLI.
+- Although it cannot be achieved from a random CLI, GitHub has an officially released solution for creating pull requests from the command line: the GitHub CLI.
+
+* What is a fork?
+
+- In Github, a fork refers to a personal copy of another user’s repository.
+- When forking a repository, one creates an independent copy that exists within the individual's own account or organization.
+- This copy includes all the files, commit history, and branches present in the original repository at the time of forking.
+- Essentially, forking allows an individual to make modifications to the codebase without affecting the original project.
+- One can then submit a pull request to the original repository to propose merging the changes back into it or keep the forked version for the individual's own use.
+- It’s a way to collaborate, experiment, and contribute to open source projects while maintaining separation from the original codebase.
+- A fork is a thing that Github provides.
+- It is not part of Git itself.
+- Although it cannot be achieved from a random CLI, GitHub has an officially released solution for forking a repository from the command line: the GitHub CLI.

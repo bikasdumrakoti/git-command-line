@@ -106,3 +106,7 @@ Note:
 * git push origin -d branch-name: delete the mentioned branch from the remote repository
 
 * git remote prune origin: remove all remote branches that have already been deleted from the remote repository but are still locally available in "remotes/origin"
+
+* git config --global core.editor "code --wait": set Visual Studio Code as the default git configuration file editor (can set other editors as well)
+
+* git config --global --edit: edit global git configuration settings for e.g. user credential requirements
