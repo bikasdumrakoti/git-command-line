@@ -112,3 +112,21 @@ Note:
 * git config --global --edit: edit global git configuration settings for e.g. user credential requirements
 
 * git rebase main: rebase the current branch onto the main branch
+
+* git stash: takes all staged files and temporarily shelves/stash them
+
+* git stash list: view all stashed list as index/name pair
+
+* git stash show: view all stashed files
+
+* git stash pop: takes all stashed files out of the shelves and add them back to the staging area
+
+* git stash -m 'stash-name': takes all staged files and temporarily shelves/stash them in a named stash
+
+* git stash pop --index index-number: takes all stashed files out of the shelves in the mentioned index and add them back to the staging area
+
+* git stash branch branch-name index-number: takes all stashed files out of the shelves in the mentioned index and adds them to a new branch
+
+* git stash drop index-number: drops the stash in the mentioned index number
+
+* git stash clear: clear entire stash
